@@ -25,7 +25,9 @@ export default {
     },
     extend: {
       fontFamily: { "space-mono": ['"Space Mono"', "monospace"] },
+      screens: { desktop: "1440px" },
     },
   },
   plugins: [],
+  darkMode: "selector",
 };
